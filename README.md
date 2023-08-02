@@ -38,12 +38,15 @@ show ip dhcp binding
 ```
 ![show ip dhcp binding](https://github.com/yukwokto/Network-DHCP/blob/81cd8f0eaac4272c61ab23d6974c3fd545060e76/pictures/router_show_ip_dhcp_binding.png)
 
+Verification on PC0 and PC2:
+![PC0]()
+![PC1]()
 
-## 2. Router as a DHCP Server
 
-DHCP and DNS Configuration
+## 2. Router as a DHCP Relay Agent
 
-![]()
+DHCP and DNS Server Configuration
+![DHCP and DNS Server Configuration](https://github.com/yukwokto/Network-DHCP/blob/1c32895ba2c5f4e5e2765610337aff5f4bddd347/pictures/server_dhcp_setting.png)
 
 
 
