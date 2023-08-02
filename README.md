@@ -6,7 +6,7 @@ This repository contains configurations and instructions to set up a DHCP Server
 
 ![Network Topology](https://github.com/yukwokto/Network-DHCP/blob/a2afd978e02360ea987e54b1b1a0be40e01e3ab6/pictures/network_topology.png)
 
-## Router as a DHCP Server
+## 1. Router as a DHCP Server
 
 Basic Configuration on the Router:
 ```
@@ -32,15 +32,18 @@ show ip dhcp pool
 ```
 ![show ip dhcp pool](https://github.com/yukwokto/Network-DHCP/blob/ceeb7a92732216deafe5bb521fc7b28c0a6784ad/pictures/router_show_ip_dhcp_pool.png)
 
+2 ip addresses have been leased.
 ```
 show ip dhcp binding
 ```
-![show ip dhcp binding]()
+![show ip dhcp binding](https://github.com/yukwokto/Network-DHCP/blob/81cd8f0eaac4272c61ab23d6974c3fd545060e76/pictures/router_show_ip_dhcp_binding.png)
 
 
+## 2. Router as a DHCP Server
 
+DHCP and DNS Configuration
 
-
+![]()
 
 
 
