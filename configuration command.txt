@@ -1,0 +1,33 @@
+
+Router as a DHCP Server:
+
+Router>en
+Router#config t
+Router(config)#int g0/0/0
+Router(config-if)#ip address 10.10.10.1 255.255.255.0
+Router(config-if)#no shutdown
+
+
+Router(config)#ip dhcp excluded-address 10.10.10.1 10.10.10.30
+Router(config)#ip dhcp pool Client_Pool
+Router(dhcp-config)#network 10.10.10.0 255.255.255.0
+Router(dhcp-config)#default-router 10.10.10.1
+Router(dhcp-config)#dns-server 10.10.10.1
+
+#verification
+show ip dhcp pool
+show ip dhcp binding
+
+
+Router as a Relay Agent:
+
+Router>en
+Router#config t
+Router(config)#int g0/0
+Router(config-if)#ip address 10.10.10.1 255.255.255.0
+Router(config-if)#no shutdown
+Router(config)#int g0/1
+Router(config-if)#ip address 10.10.20.5 255.255.255.0
+Router(config-if)#no shutdown
+Router(config-if)#int g0/0
+Router(config-if)#ip helper-address 10.10.20.1
