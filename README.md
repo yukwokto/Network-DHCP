@@ -30,5 +30,27 @@ DHCP set-up Verification
 ```
 show ip dhcp pool
 ```
-![show ip dhcp pool]()
+![show ip dhcp pool](https://github.com/yukwokto/Network-DHCP/blob/ceeb7a92732216deafe5bb521fc7b28c0a6784ad/pictures/router_show_ip_dhcp_pool.png)
+
+```
+show ip dhcp binding
+```
+![show ip dhcp binding]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
